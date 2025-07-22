@@ -3,13 +3,6 @@
 ## Overview
 The AI E-commerce Agent is a Python-based application designed to answer e-commerce-related questions by converting natural language queries into SQL, executing them on a SQLite database, and returning human-readable responses. It includes bonus features like interactive Plotly charts and streamed responses with a typing effect, fulfilling all requirements of the "Build an AI Agent to Answer E-commerce Data Questions" project. The agent handles both predefined and unseen questions efficiently, with secure API key management.
 
-### Features
-- **Natural Language to SQL**: Uses Google’s Gemini 1.5 Flash API to convert questions into SQL queries.
-- **Database Integration**: Queries a SQLite database with tables: `ad_sales`, `total_sales`, `eligibility`.
-- **Human-Readable Responses**: Formats raw SQL results into clear answers.
-- **Visualization**: Generates interactive bar charts for queries like total sales and highest CPC.
-- **Streaming Responses**: Delivers responses with a live typing effect via Server-Sent Events (SSE).
-- **Secure Configuration**: Stores the Gemini API key in a `.env` file, excluded from version control.
 
 ### Dataset
 The project uses three CSV files:
@@ -23,6 +16,13 @@ The project uses three CSV files:
 - A web browser (e.g., Chrome, Edge) for viewing charts and streaming responses
 - Postman for testing API endpoints
 - Google Gemini API key (free tier) from [Google AI Studio](https://aistudio.google.com/app/apikey)
+
+## Sample Output Screenshots
+<img width="1033" height="615" alt="image" src="https://github.com/user-attachments/assets/6cab38e7-fc07-4584-9ac8-2ef1d960f013" />
+<img width="1035" height="524" alt="image" src="https://github.com/user-attachments/assets/16288dc3-fde5-44a2-abee-fbe39bbc57f3" />
+<img width="1054" height="529" alt="image" src="https://github.com/user-attachments/assets/636c2500-7001-46b4-be8b-c08b3dad397c" />
+<img width="1058" height="563" alt="image" src="https://github.com/user-attachments/assets/eb9d3af5-f633-4333-ae1b-11747007d20b" />
+
 
 ## Setup Instructions
 1. **Clone the Repository**:
