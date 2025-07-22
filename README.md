@@ -27,5 +27,5 @@ The project uses three CSV files:
 ## Setup Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone <https://github.com/sprpranav/ai-ecommerce-agent>
+   git clone https://github.com/sprpranav/ai-ecommerce-agent
    cd ai-ecommerce-agent
