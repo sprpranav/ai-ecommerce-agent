@@ -5,6 +5,8 @@ The AI E-commerce Agent is a Python-based application designed to answer e-comme
 
 
 ### Dataset
+[Dataset Link](https://drive.google.com/drive/folders/1B5jUZ4SdN277sFnrNduAQHO3x9DSjA_W?usp=sharing)
+
 The project uses three CSV files:
 - `Product_Level_Ad_Sales.csv`: `date`, `item_id`, `ad_sales`, `impressions`, `ad_spend`, `clicks`, `units_sold`
 - `Product_Level_Total_Sales.csv`: `item_id`, `total_sales`
