@@ -84,4 +84,4 @@ The project uses three CSV files:
    cd ai-ecommerce-agent
 
 
-## Video Demo Link: [Drive Link](https://drive.google.com/file/d/1uhYihjIHLwMStGqLJnQ7s1C4AAbmHIjq/view?usp=sharing)
+## Video Demo Link: [Video Link](https://drive.google.com/file/d/1uhYihjIHLwMStGqLJnQ7s1C4AAbmHIjq/view?usp=sharing)
